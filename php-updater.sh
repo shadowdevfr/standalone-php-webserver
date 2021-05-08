@@ -1,5 +1,5 @@
-echo "\nDownloading latest php8 build. It will be seen as ./bin/php7 but it's PHP 8!"
-curl -sSL -o php.binary.tar.gz https://jenkins.pmmp.io/job/PHP-8.0-Aggregate/lastSuccessfulBuild/artifact/PHP-8.0-Linux-x86_64.tar.gz
+echo "\nDownloading latest php7 build."
+curl -sSL -o php.binary.tar.gz https://jenkins.pmmp.io/job/PHP-7.4-Aggregate/lastSuccessfulBuild/artifact/PHP-7.4-Linux-x86_64.tar.gz
 echo "\nUnpacking php8 binaries"
 tar -xzvf ./php.binary.tar.gz
 echo "\nRemoving temp file."
